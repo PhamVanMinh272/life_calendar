@@ -1,25 +1,52 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Year from './components/year/index';
+import EventProgressBar from './components/eventProgressBar';
 
-function App() {
-  return (
-    <div className="App">
+class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+  }
+
+  generateYearList() {
+    let yearElement = []
+    let rowYear = []
+    let count = 0
+    for (let i=2021; i<2068; i++) {
+      ++count
+      rowYear.push(<Year key={i} yearValue={i} />)
+      if (count===2) {
+        count = 0
+        yearElement.push(<div key={i} className="row-year">{rowYear}</div>)
+        rowYear = []
+      }
+      
+    }
+    if (rowYear) {
+      yearElement.push(<div key="2067" className="row-year">{rowYear}</div>)
+    }
+    return yearElement
+  }
+
+  render() {
+    return (
+      <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Life Calendar
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="content">
+        <EventProgressBar />
+        <div className="years-container">
+          {this.generateYearList()}
+        </div>
+      </div>
+      <footer></footer>
     </div>
-  );
+    )
+  }
 }
 
 export default App;

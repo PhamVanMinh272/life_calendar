@@ -1,0 +1,42 @@
+.month-container {
+    display: flex;
+    align-items: stretch;
+    font-size: 10px;
+    font-weight: lighter;
+    color: white;
+    height: 20px;
+    line-height: 20px;
+    margin: auto;
+}
+
+.month-title {
+    width: 20px;
+    text-align: left;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.day-container {
+    width: 17px;
+    border-bottom: 1px solid rgba(143, 141, 141, 0.25);
+    margin: 1px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.past-day {
+    background: #7d9faf;
+    color: white;
+}
+
+.current-day {
+    background: rgb(72, 204, 89);
+}
+
+.birthday {
+    background: rgb(178, 187, 138);
+}
+
+.important-birthday {
+    background: rgb(240, 68, 68);
+}

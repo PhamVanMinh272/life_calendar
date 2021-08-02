@@ -1,0 +1,25 @@
+.year-container {
+    background: rgba(69, 76, 90);
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.show-date {
+    margin-left: 2px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    background: rgb(121, 174, 184);
+    color: white;
+    font-size: 10px;
+  }
+  
+  .show-date:hover {
+    background: rgb(81, 120, 128);
+  }

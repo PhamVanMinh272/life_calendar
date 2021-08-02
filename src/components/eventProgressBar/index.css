@@ -1,0 +1,97 @@
+.event-progress-container {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.career-progress {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+}
+
+.primary-school {
+    /* 11 years old */
+    height: 100%;
+    width: 16%;
+    background: rgb(94, 145, 175);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.secondary-school {
+    /* 15 years old */
+    height: 100%;
+    width: 6%;
+    background: rgb(84, 121, 163);
+}
+
+.high-school {
+    /* 18 years old */
+    height: 100%;
+    width: 4%;
+    background: rgb(62, 98, 139);
+}
+
+.university {
+    /* 22 years old */
+    height: 100%;
+    width: 6%;
+    background: rgb(46, 88, 136);
+}
+
+.professional {
+    /* 60 years old */
+    height: 100%;
+    width: 54%;
+    background: rgb(26, 76, 133);
+}
+
+.retirement {
+    /* 70 years old */
+    height: 100%;
+    width: 14%;
+    background: rgb(91, 93, 95);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.age-progress {
+    margin-bottom: 2px;
+    display: flex;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    background: rgb(8,56,68);
+    background: linear-gradient(240deg, rgba(8,56,68,1) 0%, rgba(107,179,196,1) 100%);
+    border-radius: 10px;
+}
+
+.age-progress div {
+    flex-grow: 1;
+    border: 1px solid rgba(162, 186, 196, 0.75) ;
+    border-radius: 10px;
+    margin: 2px 1px;
+}
+
+.age-mark {
+    margin-bottom: 2px;
+    height: 20px;
+    display: flex;
+}
+
+.personal-age-progress {
+    height: 20px;
+    background: rgb(59, 149, 161);
+    border-radius: 10px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.age-mark-line {
+    height: 64px;
+    background-color: rgba(173, 207, 209, 0.25);
+    width: 1px;
+    z-index: 1;
+}
