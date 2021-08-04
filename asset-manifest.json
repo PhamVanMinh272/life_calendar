@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/life_calendar/static/css/main.bdf6d24c.chunk.css",
-    "main.js": "/life_calendar/static/js/main.47ef97df.chunk.js",
-    "main.js.map": "/life_calendar/static/js/main.47ef97df.chunk.js.map",
+    "main.css": "/life_calendar/static/css/main.5ab78acc.chunk.css",
+    "main.js": "/life_calendar/static/js/main.44fe6f50.chunk.js",
+    "main.js.map": "/life_calendar/static/js/main.44fe6f50.chunk.js.map",
     "runtime-main.js": "/life_calendar/static/js/runtime-main.5156fb5e.js",
     "runtime-main.js.map": "/life_calendar/static/js/runtime-main.5156fb5e.js.map",
     "static/js/2.ede1c38e.chunk.js": "/life_calendar/static/js/2.ede1c38e.chunk.js",
     "static/js/2.ede1c38e.chunk.js.map": "/life_calendar/static/js/2.ede1c38e.chunk.js.map",
     "index.html": "/life_calendar/index.html",
-    "static/css/main.bdf6d24c.chunk.css.map": "/life_calendar/static/css/main.bdf6d24c.chunk.css.map",
+    "static/css/main.5ab78acc.chunk.css.map": "/life_calendar/static/css/main.5ab78acc.chunk.css.map",
     "static/js/2.ede1c38e.chunk.js.LICENSE.txt": "/life_calendar/static/js/2.ede1c38e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5156fb5e.js",
     "static/js/2.ede1c38e.chunk.js",
-    "static/css/main.bdf6d24c.chunk.css",
-    "static/js/main.47ef97df.chunk.js"
+    "static/css/main.5ab78acc.chunk.css",
+    "static/js/main.44fe6f50.chunk.js"
   ]
 }
